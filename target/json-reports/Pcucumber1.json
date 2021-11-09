@@ -1,0 +1,287 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-06T14:02:40.778Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC01 amazon nutella arama",
+        "description": "",
+        "id": "us1001-amazon-aram;tc01-amazon-nutella-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2230792100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6311929800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2280814400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "nutella icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.nutella_icin_arma_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66994200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonucun nutella icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.sonucun_nutella_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 693362100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-06T14:02:52.401Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC02 amazon java arama",
+        "description": "",
+        "id": "us1001-amazon-aram;tc02-amazon-java-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2108908300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4538085400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3481165600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "java icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.java_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50710000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "sonucun java icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.sonucun_java_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 683940200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-06T14:03:03.273Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "TC03 amazon ipad arama",
+        "description": "",
+        "id": "us1001-amazon-aram;tc03-amazon-ipad-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2613993600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4648347300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2827662700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "ipad icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.ipad_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68857300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "sonucun ipad icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.sonucun_ipad_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 684544600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitons.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@ipad"
+          }
+        ]
+      }
+    ],
+    "name": "US1001 amazon aram",
+    "description": "",
+    "id": "us1001-amazon-aram",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1001_amazonArama.feature",
+    "tags": [
+      {
+        "name": "@Paralel1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
